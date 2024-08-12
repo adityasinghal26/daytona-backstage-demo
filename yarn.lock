@@ -13,6 +13,14 @@
     "@backstage/plugin-auth-backend-module-oidc-provider" "^0.2.2"
     "@backstage/plugin-auth-node" "^0.4.16"
 
+"@adityasinghal26/daytona-web@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@adityasinghal26/daytona-web/-/daytona-web-0.1.1.tgz#c7f34afb4c64b722d98859a5803670913ed0ef3d"
+  integrity sha512-4GmumvBPjb0uBHroieRv7Vy9H7kKoGmYJ+h5ODuK8li5ww0J0ZVq9uEK4MPOQeHJhpbqHSGv7rWjqzG7b91qmw==
+  dependencies:
+    "@backstage/core-app-api" "^1.13.0"
+    "@backstage/core-plugin-api" "^1.9.3"
+
 "@adobe/css-tools@^4.4.0":
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/@adobe/css-tools/-/css-tools-4.4.0.tgz#728c484f4e10df03d5a3acd0d8adcbbebff8ad63"
@@ -2627,7 +2635,7 @@
     "@backstage/errors" "^1.2.4"
     "@backstage/types" "^1.1.1"
 
-"@backstage/core-app-api@^1.14.0", "@backstage/core-app-api@^1.14.1":
+"@backstage/core-app-api@^1.13.0", "@backstage/core-app-api@^1.14.0", "@backstage/core-app-api@^1.14.1":
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.14.1.tgz#d998ba2b9b2fd80db762a933c5e2d9985c14c1ac"
   integrity sha512-I3Hbc36dTjKNL5yhY16yNamv1nFxfzDxd6Y42apDq+IEAueZrodR/+qCeMq2QtcpZ9GOfowKoJhccA8GMUXpQQ==
