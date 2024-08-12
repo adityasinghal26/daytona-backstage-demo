@@ -13,6 +13,22 @@
     "@backstage/plugin-auth-backend-module-oidc-provider" "^0.2.2"
     "@backstage/plugin-auth-node" "^0.4.16"
 
+"@adityasinghal26/backstage-plugin-daytona@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@adityasinghal26/backstage-plugin-daytona/-/backstage-plugin-daytona-0.1.1.tgz#1d731392214481fc7f436dede2ea735ae9de1d2f"
+  integrity sha512-/0+VD7sIwf6FHTVVDF3IosVucW8bPBIU3mXNJeyXUrYDvrV90c5VQPpbGxl3sIGct1dk59mgJSc+LoU7JzdPvg==
+  dependencies:
+    "@adityasinghal26/daytona-web" "link:../../home/codespace/.cache/yarn/v6/npm-@adityasinghal26-backstage-plugin-daytona-0.1.1-1d731392214481fc7f436dede2ea735ae9de1d2f-integrity/node_modules/@adityasinghal26/daytona-web"
+    "@backstage/catalog-model" "^1.5.0"
+    "@backstage/core-components" "^0.14.7"
+    "@backstage/core-plugin-api" "^1.9.2"
+    "@backstage/plugin-catalog-react" "^1.12.0"
+    "@backstage/theme" "^0.5.5"
+    "@material-ui/core" "^4.9.13"
+    "@material-ui/icons" "^4.9.1"
+    "@material-ui/lab" "4.0.0-alpha.61"
+    react-use "^17.2.4"
+
 "@adityasinghal26/daytona-web@^0.1.1":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@adityasinghal26/daytona-web/-/daytona-web-0.1.1.tgz#c7f34afb4c64b722d98859a5803670913ed0ef3d"
@@ -20,6 +36,10 @@
   dependencies:
     "@backstage/core-app-api" "^1.13.0"
     "@backstage/core-plugin-api" "^1.9.3"
+
+"@adityasinghal26/daytona-web@link:../daytona-web":
+  version "0.0.0"
+  uid ""
 
 "@adobe/css-tools@^4.4.0":
   version "4.4.0"
@@ -2664,7 +2684,7 @@
     "@backstage/version-bridge" "^1.0.8"
     "@types/react" "^16.13.1 || ^17.0.0"
 
-"@backstage/core-components@^0.14.9":
+"@backstage/core-components@^0.14.7", "@backstage/core-components@^0.14.9":
   version "0.14.9"
   resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.14.9.tgz#bb1f40be18d8241b70538383d324aec233586382"
   integrity sha512-tcwDUeQBMIKtM+EuLMl6BdwjWdjjTnvvUuQCJISdy5ot+Yp/znQK+d4KIA97wq3Fu/ufy1+tAAwGGaifHMRf1g==
@@ -2707,7 +2727,7 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-plugin-api@^1.9.3":
+"@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.9.3.tgz#66b4b7dc620823c66b123c8a2d6db088e2936027"
   integrity sha512-MV/RQv8nAPYVkVX926Z+VPW2W4ZzU9VN2s9NhWSWqoYuOzsmA4FgmfNDuwiPEAUKW7AlVCGI4A0deUZ22Orgyw==
@@ -3287,7 +3307,7 @@
     "@backstage/plugin-permission-node" "^0.8.0"
     "@backstage/types" "^1.1.1"
 
-"@backstage/plugin-catalog-react@^1.12.2":
+"@backstage/plugin-catalog-react@^1.12.0", "@backstage/plugin-catalog-react@^1.12.2":
   version "1.12.2"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-react/-/plugin-catalog-react-1.12.2.tgz#0ec2c3fbe6a5970e498167e06fa55ddf83a2d939"
   integrity sha512-YZ5Xec+wCR21lfnpUEtUIRnFGbGnpcqwzmXxcnF+n/sZydcgfig4d/N0gq2OuuTQnoX5O9NAhy+v5VdRzHNs5g==
@@ -4135,7 +4155,7 @@
     i18next "^22.4.15"
     zen-observable "^0.10.0"
 
-"@backstage/theme@^0.5.6":
+"@backstage/theme@^0.5.5", "@backstage/theme@^0.5.6":
   version "0.5.6"
   resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.5.6.tgz#18645cbe42fb5667946e0a5dd38f2fb0bb056597"
   integrity sha512-7/0sZYAS+2p/eEWC8eBINWHNv4jas6R20e0R5f0fc1YvLnVQ8HhnpZ6+d2vDMe7X2A2TBBcyJbSCybHdRAKpAA==
@@ -9964,6 +9984,7 @@ apg-lite@^1.0.3:
 "app@link:packages/app":
   version "0.0.0"
   dependencies:
+    "@adityasinghal26/daytona-web" "^0.1.1"
     "@backstage/app-defaults" "^1.5.8"
     "@backstage/catalog-model" "^1.5.0"
     "@backstage/cli" "^0.26.11"
