@@ -64,9 +64,20 @@ techdocs:
 
 auth:
   # see https://backstage.io/docs/auth/ to learn about auth providers
+  session:
+    secret: dummy
   providers:
     # See https://backstage.io/docs/auth/guest/provider
     guest: {}
+    daytona:
+      development:
+        clientId: ${DAYTONA_CLIENT_ID}
+        clientSecret: ${DAYTONA_CLIENT_SECRET}
+        metadataUrl: https://id.<your-daytona-domain>/realms/default/.well-known/openid-configuration
+        prompt: auto
+        signIn:
+          resolvers:
+            - resolver: emailLocalPartMatchingUserEntityName
 
 scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
