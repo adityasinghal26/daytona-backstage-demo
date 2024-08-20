@@ -42,7 +42,7 @@ const useSidebarLogoStyles = makeStyles({
     marginLeft: 24,
   },
 });
-import MapIcon from '@material-ui/icons/MyLocation';
+import { DaytonaIcon } from '@adityasinghal26/backstage-plugin-daytona';
 
 const SidebarLogo = () => {
   const classes = useSidebarLogoStyles();
@@ -80,7 +80,7 @@ export const Root = ({ children }: PropsWithChildren<{}>) => (
         <SidebarDivider />
         <SidebarScrollWrapper>
           {/* Items in this group will be scrollable if they run out of space */}
-          <SidebarItem icon={MapIcon} to="daytona" text="Daytona" />
+          <SidebarItem icon={DaytonaIcon} to="daytona" text="Daytona" />
         </SidebarScrollWrapper>
       </SidebarGroup>
       <SidebarSpace />
