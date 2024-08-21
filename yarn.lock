@@ -13,20 +13,22 @@
     "@backstage/plugin-auth-backend-module-oidc-provider" "^0.2.2"
     "@backstage/plugin-auth-node" "^0.4.16"
 
-"@adityasinghal26/backstage-plugin-daytona@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@adityasinghal26/backstage-plugin-daytona/-/backstage-plugin-daytona-0.2.0.tgz#8a5c90ce37075eea179121101939bc05fec44cd4"
-  integrity sha512-51eQtchUl8w989YBiu0F1d5Ta1Zpd/Uzql+ceNUxAJgf3jHRjYaPsNdVyWWPwsr1Jb7wI+ZPO5hLiJN4t50aBw==
+"@adityasinghal26/backstage-plugin-daytona@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@adityasinghal26/backstage-plugin-daytona/-/backstage-plugin-daytona-0.2.1.tgz#9d9823ea226825048c8927a827c78a4dad82f260"
+  integrity sha512-hTPQ7xiyKqUpoCm/+13NAfOAYbI7t/r9vzkEdwVQT8iVttw5r32Y4jat9MlhluYS0XzPWJu8jJKO4fMOjm6kSQ==
   dependencies:
-    "@adityasinghal26/daytona-web" "link:../../home/codespace/.cache/yarn/v6/npm-@adityasinghal26-backstage-plugin-daytona-0.2.0-8a5c90ce37075eea179121101939bc05fec44cd4-integrity/node_modules/@adityasinghal26/daytona-web"
+    "@adityasinghal26/daytona-web" "link:../../home/codespace/.cache/yarn/v6/npm-@adityasinghal26-backstage-plugin-daytona-0.2.1-9d9823ea226825048c8927a827c78a4dad82f260-integrity/node_modules/@adityasinghal26/daytona-web"
     "@backstage/catalog-model" "^1.5.0"
     "@backstage/core-components" "^0.14.7"
     "@backstage/core-plugin-api" "^1.9.2"
+    "@backstage/integration-react" "^1.1.27"
     "@backstage/plugin-catalog-react" "^1.12.0"
     "@backstage/theme" "^0.5.5"
     "@material-ui/core" "^4.9.13"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
+    git-url-parse "^14.1.0"
     react-use "^17.2.4"
 
 "@adityasinghal26/daytona-web@^0.1.1":
@@ -37,7 +39,7 @@
     "@backstage/core-app-api" "^1.13.0"
     "@backstage/core-plugin-api" "^1.9.3"
 
-"@adityasinghal26/daytona-web@link:../daytona-web":
+"@adityasinghal26/daytona-web@link:../../../../Library/Caches/Yarn/v6/npm-@adityasinghal26-backstage-plugin-daytona-0.2.1-9d9823ea226825048c8927a827c78a4dad82f260-integrity/node_modules/@adityasinghal26/daytona-web":
   version "0.0.0"
   uid ""
 
@@ -2791,6 +2793,18 @@
     "@backstage/config" "^1.2.0"
     "@backstage/errors" "^1.2.4"
 
+"@backstage/integration-react@^1.1.27":
+  version "1.1.30"
+  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.1.30.tgz#71eb0e1991718527fa3917510cce7a8b4ae96b8b"
+  integrity sha512-0snaRSyTY6yFbOcTepc5ra67ePPkkO4qW/w3QKl7zuzule1kyfYjRJdnqDZjiBeVQY6zsW7rZub3llWScZTClg==
+  dependencies:
+    "@backstage/config" "^1.2.0"
+    "@backstage/core-plugin-api" "^1.9.3"
+    "@backstage/integration" "^1.14.0"
+    "@material-ui/core" "^4.12.2"
+    "@material-ui/icons" "^4.9.1"
+    "@types/react" "^16.13.1 || ^17.0.0"
+
 "@backstage/integration-react@^1.1.29":
   version "1.1.29"
   resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.1.29.tgz#6fe02bc88c64a7584a09b66cc321597e525ef347"
@@ -2807,6 +2821,21 @@
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.13.0.tgz#c7f362c802bda8ecda374e9416cf9cb573d5fce1"
   integrity sha512-mnzZb0vXQHbFM64HfLrYjnKxhucgkMz+E9ilwXg0XpdK0tlvq2n5RfAFz7BC717BI4l++1epiMFD9hyXAUtxHA==
+  dependencies:
+    "@azure/identity" "^4.0.0"
+    "@backstage/config" "^1.2.0"
+    "@backstage/errors" "^1.2.4"
+    "@octokit/auth-app" "^4.0.0"
+    "@octokit/rest" "^19.0.3"
+    cross-fetch "^4.0.0"
+    git-url-parse "^14.0.0"
+    lodash "^4.17.21"
+    luxon "^3.0.0"
+
+"@backstage/integration@^1.14.0":
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.14.0.tgz#a7b3542f3c0cbb1bf902dab864512f6a28718985"
+  integrity sha512-sGtvlRYlOtui7COlCYTU8W0tAJaShCsYfirbdIzL9sweJmDR2PlitH+7bpYLlnQ9PV/MlKjR2UFeIIlYexdXug==
   dependencies:
     "@azure/identity" "^4.0.0"
     "@backstage/config" "^1.2.0"
@@ -9970,7 +9999,7 @@ apg-lite@^1.0.3:
 "app@link:packages/app":
   version "0.0.0"
   dependencies:
-    "@adityasinghal26/backstage-plugin-daytona" "^0.2.0"
+    "@adityasinghal26/backstage-plugin-daytona" "^0.2.1"
     "@adityasinghal26/daytona-web" "^0.1.1"
     "@backstage/app-defaults" "^1.5.8"
     "@backstage/catalog-model" "^1.5.0"
@@ -14366,7 +14395,7 @@ git-url-parse@13.1.0:
   dependencies:
     git-up "^7.0.0"
 
-git-url-parse@^14.0.0:
+git-url-parse@^14.0.0, git-url-parse@^14.1.0:
   version "14.1.0"
   resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-14.1.0.tgz#01cb70000666c11a7230aceec1fd518c416c224c"
   integrity sha512-8xg65dTxGHST3+zGpycMMFZcoTzAdZ2dOtu4vmgIfkTFnVHBxHMzBC2L1k8To7EmrSiHesT8JgPLT91VKw1B5g==
