@@ -13,12 +13,12 @@
     "@backstage/plugin-auth-backend-module-oidc-provider" "^0.2.2"
     "@backstage/plugin-auth-node" "^0.4.16"
 
-"@adityasinghal26/backstage-plugin-daytona@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@adityasinghal26/backstage-plugin-daytona/-/backstage-plugin-daytona-0.2.1.tgz#9d9823ea226825048c8927a827c78a4dad82f260"
-  integrity sha512-hTPQ7xiyKqUpoCm/+13NAfOAYbI7t/r9vzkEdwVQT8iVttw5r32Y4jat9MlhluYS0XzPWJu8jJKO4fMOjm6kSQ==
+"@adityasinghal26/backstage-plugin-daytona@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@adityasinghal26/backstage-plugin-daytona/-/backstage-plugin-daytona-0.2.3.tgz#53eb9086e39a47a9ca045e36320d492553955d86"
+  integrity sha512-I61CBMtsbsAD7Sq8W4OvtYKMmM0AB4/ZbHjgD51P0LstNimWFIxLLmxBoIKFs34NMLVBBjXvOkzUeD5jiHrtSQ==
   dependencies:
-    "@adityasinghal26/daytona-web" "link:../../home/codespace/.cache/yarn/v6/npm-@adityasinghal26-backstage-plugin-daytona-0.2.1-9d9823ea226825048c8927a827c78a4dad82f260-integrity/node_modules/@adityasinghal26/daytona-web"
+    "@adityasinghal26/daytona-web" "link:../../home/codespace/.cache/yarn/v6/npm-@adityasinghal26-backstage-plugin-daytona-0.2.3-53eb9086e39a47a9ca045e36320d492553955d86-integrity/node_modules/@adityasinghal26/daytona-web"
     "@backstage/catalog-model" "^1.5.0"
     "@backstage/core-components" "^0.14.7"
     "@backstage/core-plugin-api" "^1.9.2"
@@ -39,7 +39,7 @@
     "@backstage/core-app-api" "^1.13.0"
     "@backstage/core-plugin-api" "^1.9.3"
 
-"@adityasinghal26/daytona-web@link:../../../../Library/Caches/Yarn/v6/npm-@adityasinghal26-backstage-plugin-daytona-0.2.1-9d9823ea226825048c8927a827c78a4dad82f260-integrity/node_modules/@adityasinghal26/daytona-web":
+"@adityasinghal26/daytona-web@link:../daytona-web":
   version "0.0.0"
   uid ""
 
@@ -9999,7 +9999,7 @@ apg-lite@^1.0.3:
 "app@link:packages/app":
   version "0.0.0"
   dependencies:
-    "@adityasinghal26/backstage-plugin-daytona" "^0.2.1"
+    "@adityasinghal26/backstage-plugin-daytona" "^0.2.3"
     "@adityasinghal26/daytona-web" "^0.1.1"
     "@backstage/app-defaults" "^1.5.8"
     "@backstage/catalog-model" "^1.5.0"
